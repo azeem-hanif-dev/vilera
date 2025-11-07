@@ -5,7 +5,7 @@ const Hero: React.FC = () => {
   return (
     <div
       id="top" className="relative rounded-3xl lg:rounded-[50px] shadow-lg overflow-hidden bg-cover bg-center bg-no-repeat mt-16 sm:mt-20 lg:mt-24"
-      style={{ backgroundImage: "url('./components/images/backgroundimage.png')" }}
+      style={{ backgroundImage: "url('/images/backgroundimage.png')" }}
     >
       <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20 overflow-visible">
         
@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
             </p>
 
             <button
-            onClick={() => window.open('./components/pdf/VileraCatalog.pdf', '_blank')}
+            onClick={() => window.open('/pdf/VileraCatalog.pdf', '_blank')}
             className="mt-10 inline-flex items-center justify-center px-8 sm:px-10 py-4 sm:py-5 bg-[#2A2A2A] text-white font-poppins font-bold text-lg sm:text-xl rounded-2xl shadow-md hover:bg-black transition-all duration-300 transform hover:scale-105">
               Download Catalog
               <DownloadIcon className="w-6 h-6 sm:w-7 sm:h-7 ml-3" />
@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
               "
             >
               <img
-                src="./components/images/heroimage.png"
+                src="/images/heroimage.png"
                 alt="Vilera cleaning products"
                 className="
                   object-contain 

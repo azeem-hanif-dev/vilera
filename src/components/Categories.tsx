@@ -7,7 +7,7 @@ const categoriesData = [
     title: 'Sponges & Scourers',
     color: 'text-[#248264]',
     bgColor: 'bg-[#F7FFE7]',
-    imageUrl: './components/images/Categoryoneimage.png',
+    imageUrl: '/images/Categoryoneimage.png',
     gridClass: 'lg:col-span-2',
     imgClass: 'right-0 top-0 w-2/4',
     topmargine: '', // 🟩 Added top margin
@@ -17,7 +17,7 @@ const categoriesData = [
     title: 'Wipers',
     color: 'text-[#6D6D6D]',
     bgColor: 'bg-[#F3F3F3]',
-    imageUrl: './components/images/Categorytwoimage.png',
+    imageUrl: '/images/Categorytwoimage.png',
     gridClass: 'lg:col-span-1',
     imgClass: 'right-[-20px] top-[-20px] w-full',
     topmargine: 'mt-40', 
@@ -27,7 +27,7 @@ const categoriesData = [
     title: 'Microfiber Cloths',
     color: 'text-[#CA9900]',
     bgColor: 'bg-[#FFF4D1]',
-    imageUrl: './components/images/Categorythreeimage.png',
+    imageUrl: '/images/Categorythreeimage.png',
     gridClass: 'lg:col-span-1',
     imgClass: 'right-0 top-0 w-full',
     topmargine: 'mt-40', // 🟩 Added margin-top
@@ -37,7 +37,7 @@ const categoriesData = [
     title: 'Floorcare Mops',
     color: 'text-[#252EBC]',
     bgColor: 'bg-[#CCCFFF]',
-    imageUrl: './components/images/Categoryfourimage.png',
+    imageUrl: '/images/Categoryfourimage.png',
     gridClass: 'lg:col-span-2',
     imgClass: 'right-0 top-0 w-2/3',
     topmargine: '', // 🟩 Added padding-top
@@ -47,7 +47,7 @@ const categoriesData = [
     title: 'Household Chemicals',
     color: 'text-[#1E1739]',
     bgColor: 'bg-[#BFDCFF]',
-    imageUrl: './components/images/Categoryfiveimage.png',
+    imageUrl: '/images/Categoryfiveimage.png',
     gridClass: 'lg:col-span-2',
     imgClass: 'right-0 top-0 w-2/3',
     topmargine: '', // 🟩 Added top margin
@@ -81,10 +81,10 @@ const Categories: React.FC = () => {
                   Access our full 2025 product line with exclusive wholesale MOQs and per-piece pricing. Download now to streamline your procurement and secure the best rates in Pakistan.
                 </p>
                 <button
-            onClick={() => window.open('./components/pdf/VileraCatalog.pdf', '_blank')}
+            onClick={() => window.open('/pdf/VileraCatalog.pdf', '_blank')}
                  className="bg-gray-900 hover:bg-black text-white font-semibold py-2.5 px-6 lg:py-3 lg:px-8 rounded-xl flex items-center gap-2 lg:gap-3 transition-all duration-300 hover:shadow-2xl hover:scale-105 group/btn text-sm lg:text-base">
                 {/* <a 
-                  href="./components/pdf/VileraCatalog.pdf" 
+                  href="/pdf/VileraCatalog.pdf" 
                   download="Catalog.pdf"
                   className="bg-gray-900 hover:bg-black text-white font-semibold py-2.5 px-6 lg:py-3 lg:px-8 rounded-xl flex items-center gap-2 lg:gap-3 transition-all duration-300 hover:shadow-2xl hover:scale-105 group/btn text-sm lg:text-base w-fit"
                 > */}

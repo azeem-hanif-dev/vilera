@@ -74,7 +74,7 @@ const Footer: React.FC = () => {
               Access our full 2025 product line with exclusive wholesale MOQs and per-piece pricing. Download now to streamline your procurement and secure the best rates in Pakistan.
             </p>
             <button 
-              onClick={() => window.open('./components/pdf/VileraCatalog.pdf', '_blank')}
+              onClick={() => window.open('/pdf/VileraCatalog.pdf', '_blank')}
               className="mt-6 inline-flex items-center justify-center px-8 py-4 bg-[#2A2A2A] text-white font-poppins font-bold text-lg rounded-xl shadow-md hover:bg-black transition-all duration-300 transform hover:scale-105"
             >
               Download Catalog

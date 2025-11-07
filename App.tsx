@@ -1,11 +1,11 @@
 
 import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import Categories from './components/Categories';
-import ContactForm from './components/ContactForm';
-import Footer from './components/Footer';
+import Header from './src/components/Header';
+import Hero from './src/components/Hero';
+import About from './src/components/About';
+import Categories from './src/components/Categories';
+import ContactForm from './src/components/ContactForm';
+import Footer from './src/components/Footer';
 
 const App: React.FC = () => {
   return (
